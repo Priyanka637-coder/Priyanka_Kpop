@@ -1,0 +1,19 @@
+uuid: 74bb0ebe-5887-49bc-8ad1-86c90c31a422
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_spotifyid
+    - node.type.artist
+id: node.artist.field_spotifyid
+field_name: field_spotifyid
+entity_type: node
+bundle: artist
+label: spotifyId
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

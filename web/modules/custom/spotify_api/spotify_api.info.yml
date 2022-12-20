@@ -1,0 +1,5 @@
+name: Spotify Web Api
+description: access spotify web api
+type: module
+core_version_requirement: ^9.2 || ^10
+

@@ -1,0 +1,7 @@
+spotify_api.getArtist:
+  path: '/getArtistById/{artistId}'
+  defaults:
+    _controller: 'Drupal\spotify_api\Controller\ArtistAPIController::getArtist'
+    _title: 'Get Artist'
+  requirements:
+    _permission: 'access content'

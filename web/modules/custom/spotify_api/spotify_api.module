@@ -1,0 +1,14 @@
+<?php
+
+function spotify_api_theme($existing, $type, $theme, $path) {
+
+  return [
+    'artist_info' => [
+       'variables' => [
+            'name' => NULL,
+            'image' => NULL,
+            'genres' => NULL
+        ],
+    ]
+  ];
+}

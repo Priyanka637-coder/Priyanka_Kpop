@@ -1,0 +1,10 @@
+
+services:
+
+  spotify_api.Access:
+    class: Drupal\spotify_api\Access
+  
+  spotify_api.Artist:
+    class: Drupal\spotify_api\Artist
+
+    
