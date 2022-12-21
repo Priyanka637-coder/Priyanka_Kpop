@@ -103,7 +103,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "\r\n<a href=\"/getArtistById/{{ field_spotifyid__value }}\">{{ title }}</a>"
+            text: "{% set base_url = url('<front>') %}\r\n<a href=\"{{ base_url }}getArtistById/{{ field_spotifyid__value }}\">{{ title }}</a>"
             make_link: false
             path: ''
             absolute: false
